@@ -1,0 +1,144 @@
+section {
+  min-height: 450px;
+}
+
+hr {
+  width: 250px;
+  border-top: 4px solid #666;
+}
+
+.navbar {
+  background-color: #091921;
+}
+
+.jumbotron {
+  background-image: url(img/bg22.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -20px;
+  overflow: hidden;
+}
+
+.jumbotron h1 {
+  font-size: 6vw;
+}
+
+.jumbotron h5 {
+  font-size: 2vw;
+}
+
+.jumbotron p {
+  font-size: 2vw;
+}
+
+.jumbotron img {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.jumbotron .container h1,
+.jumbotron .container h5,
+.jumbotron .container p {
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.kiri,
+.kanan {
+  opacity: 0;
+  transition: 1s;
+  transition-delay: 2s;
+}
+
+.kiri {
+  transform: translate(0, 200px);
+}
+
+.kanan {
+  transform: translate(0, 200px);
+}
+
+.kiri.pmuncul,
+.kanan.pmuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.portfolio {
+  background-image: url(img/bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 50px;
+}
+
+.portfolio h2 {
+  color: white;
+}
+
+.portfolio .card {
+  opacity: 0;
+  transition: .5s;
+  transform: translate(0, -40px);
+}
+
+.portfolio .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.bussiness p {
+  color: black;
+}
+
+.about p,
+.portfolio p,
+.jumbotron p {
+  color: black;
+}
+
+/* footer */
+
+.footer {
+  background-color: #091921;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer .container .row .col h2,
+p {
+  color: #b6bbc5;
+}
+
+.footer a {
+  text-align: center;
+  justify-content: center;
+}
+
+.footer li {
+  margin: 10px;
+  height: 90px;
+  width: 90px;
+  background-color: #091921;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.1),
+    2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.footer li a {
+  color: #b6bbc5;
+  font-size: 40px;
+  width: 100%;
+  line-height: 90px;
+}
+
+.footer li a:hover {
+  color: rgb(0, 225, 255);
+}
+
+.footer .copyright {
+  color: #b6bbc5;
+}
+
+.copyright i {
+  color: red;
+}
