@@ -19,18 +19,6 @@ hr {
   overflow: hidden;
 }
 
-.jumbotron h1 {
-  font-size: 6vw;
-}
-
-.jumbotron h5 {
-  font-size: 2vw;
-}
-
-.jumbotron p {
-  font-size: 2vw;
-}
-
 .jumbotron img {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
@@ -49,7 +37,7 @@ hr {
 .kiri,
 .kanan {
   opacity: 0;
-  transition: 1s;
+  transition: 3s;
   transition-delay: 2s;
 }
 
@@ -82,6 +70,7 @@ hr {
   opacity: 0;
   transition: .5s;
   transform: translate(0, -40px);
+  font-size: 11px;
 }
 
 .portfolio .card.muncul {
@@ -97,6 +86,11 @@ hr {
 .portfolio p,
 .jumbotron p {
   color: black;
+}
+
+#address,
+#tombol {
+  background-color: #091921;
 }
 
 /* footer */
